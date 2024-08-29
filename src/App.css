@@ -28,6 +28,51 @@
   color: #61dafb;
 }
 
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.box{
+border: 1px solid black;
+height: 250px;
+width: 200px;
+background-color: pink;
+}
+
+.actions{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.item{
+  height: 30px;
+  background-color: lightblue;
+  margin: 10px  0px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checked{
+background-color: black;
+color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
